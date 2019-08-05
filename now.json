@@ -1,0 +1,24 @@
+
+{
+    "name": "project_name",
+    "version": 2,
+    "public": false,
+    "builds": [
+        {
+            "src": "index.js",
+            "use": "@now/node-server"
+        },
+        {
+            "src": "files/**",
+            "use": "@now/static"
+        }
+    ],
+    "routes": [{
+        "src": "/.*",
+        "dest": "index.js"
+    }],
+    "files": [
+        "files/xss.js",
+        "files/xxe.xml"
+    ]
+}

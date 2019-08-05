@@ -1,0 +1,14 @@
+{
+  "name": "now.sh_boilerplate",
+  "version": "1.0.0",
+  "description": "Template for ExpressJS app to be deployed in now.sh",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Vaidas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
